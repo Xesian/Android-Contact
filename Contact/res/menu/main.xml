@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    tools:context="com.example.actionbartest.MainActivity" >  
+     <item  
+        android:id="@+id/action_search" 
+        android:actionViewClass="android.widget.SearchView"  
+        android:icon="@drawable/search"
+        android:showAsAction="ifRoom|collapseActionView"  
+        android:title="action_search" /> 
+     <item  
+        android:id="@+id/addPerson"  
+        android:icon="@drawable/addperson"  
+        android:showAsAction="always"  
+        android:title="action_addperson"/>  
+</menu>
